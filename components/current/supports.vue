@@ -14,8 +14,9 @@
         </div>
         <div class="column">
           <ul>
-            <li><strong class="white">ЯД</strong><pre>41001928837376</pre></li>
-            <li><strong class="white">HALYK</strong><pre>5101 4513 2593 6021</pre></li>
+            <li><strong class="white">ЯД:</strong><pre>41001928837376</pre></li>
+            <li><strong class="white">Bank KZ:</strong><pre>5101 4513 2593 6021</pre></li>
+            <li><strong class="white">Bank RU:</strong><pre>5599 0050 8547 6245</pre></li>
           </ul>
         </div>
         <div class="column">

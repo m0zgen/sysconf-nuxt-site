@@ -5,7 +5,8 @@
       <div class="block orange divide">~ ~ ~</div>
       <p class="subtitle white">
 
-        @bekenovalibek, @bessmertnyiponi, @offsec, MODE_ON, @manfromkz, @sysroman, @yerzhanm, @inzgiba, @Thatskriptkid
+        @bekenovalibek, @bessmertnyiponi, @offsec, MODE_ON, @manfromkz, @sysroman, @yerzhanm, @inzgiba, @Thatskriptkid,
+        @Batkailyas, @t2micro, Bauyrzhan D.
 
       </p>
     </div>
