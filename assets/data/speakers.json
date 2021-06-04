@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "name": "Маргулан Молдабеков",
+      "company": "BTS Digital",
+      "position": "",
+      "presentation": "eBPF. Митигация ddos атак.",
+      "description": "",
+      "activity": "@HacksnPerks, SCM",
+      "photo": ""
+    },
+    {
+      "name": "Сабыржан \"novitoll\" Тасболатов",
+      "company": "Spectre Security Group",
+      "position": "Пентестер/Исследователь безопасности",
+      "presentation": "Linux ядро для хакера",
+      "description": "Доклад покажет и докажет, почему нужно быть внимательными в глобальной сети",
+      "activity": "@novitoll_ch, SCM",
+      "photo": ""
+    },
+    {
+      "name": "Мурат (@manfromkz)",
+      "company": "NitroTeam.kz",
+      "position": "Web application pentester, researcher",
+      "presentation": "Нетаргетированный фишинг",
+      "description": "Доклад покажет и докажет, почему нужно быть внимательными в глобальной сети",
+      "activity": "SCM",
+      "photo": ""
+    },
+    {
+      "name": "Ильяс",
+      "company": "BTS Digital",
+      "position": "IT Security Analyst",
+      "presentation": "Secret interception via eBPF",
+      "description": "Покажу step-by-step как научиться перехватывать пароль пользователя при логине или sudo команде. Сначала найдем бинарь, который отвечает за проверку пароля. Поковыряемся в исходниках и напишем bpftrace программу, которая будет выводить введенные пароли.",
+      "activity": "",
+      "photo": ""
+    },
+    {
+      "name": "Евгений Гончаров",
+      "company": "Sys-Adm.in",
+      "position": "",
+      "presentation": "Check Windows and Control Configs and Security",
+      "description": "Зачем нужен CI. Как решать вопросы с контролем CI при помощи PowerShell (CWiCCS)",
+      "activity": "SCM",
+      "photo": ""
+    }
+  ]
+}

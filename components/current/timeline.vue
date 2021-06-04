@@ -33,28 +33,22 @@
             <!--                    <i class="fa fa-flag"></i>-->
           </div>
           <div class="timeline-content">
-            <p class="heading">?June? 2021</p>
+            <p class="heading">Jule 2021</p>
             <p>Third Conference</p>
           </div>
         </div>
 
-        <div class="timeline-item is-warning">
-          <div class="timeline-marker is-warning is-image is-32x32">
-            <img src="https://bulma.io/images/placeholders/32x32.png">
-          </div>
-          <div class="timeline-content">
-            <p class="heading">1. Доклад о кошечках</p>
-            <p>Когда админу нужен друг</p>
-          </div>
-        </div>
 
-        <div class="timeline-item is-warning">
+        <div class="timeline-item is-warning" v-for="user in content.users" :key="user">
           <div class="timeline-marker is-warning is-image is-32x32">
             <img src="https://bulma.io/images/placeholders/32x32.png">
           </div>
           <div class="timeline-content">
-            <p class="heading">2. Установка notepad</p>
-            <p>Доклад о любимом текстовом редакторе</p>
+            <p class="heading">{{user.presentation}}
+              <br>
+              {{user.name}}
+            </p>
+
           </div>
         </div>
 
@@ -68,9 +62,21 @@
 </template>
 
 <script>
+
+import datausers from '~/assets/data/speakers.json';
+
+// console.log(data)
+
 export default {
-  name: "timeline"
+  name: "timeline",
+  data() {
+    return {
+      content: datausers,
+      isLoading: true
+    }
+  }
 }
+
 </script>
 
 <style scoped>

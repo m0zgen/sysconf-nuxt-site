@@ -23,7 +23,7 @@
       </div>
 
 <!--      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>-->
-      <a class="button is-warning" onmouseover="glow()" href="membership">Подробнее об участии</a>
+<!--      <a class="button is-warning" onmouseover="glow()" href="membership">Подробнее об участии</a>-->
 
     </div>
   </section>
