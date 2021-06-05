@@ -126,5 +126,12 @@ $strong-secondary: #9DAAF2;
   margin: 50px auto;
 }
 
+ul.bullet-circle {
+  margin-left: 23pt;
+}
+
+ul.bullet-circle li {
+  list-style-type: disclosure-closed;
+}
 
 ////

@@ -15,16 +15,9 @@
             <h1 class="title is-2 is-spaced">
               <strong>Open SysConf'21</strong></h1>
             <br><br>
-            <h2 class="title is-3">
-              Открытая конференция ИТ / ИБ / *OPS направлений
-              <br>
-              г.Алматы, 10 июля, 10:00-19:00 GMT+6
-            </h2>
-            <br><br>
-            <h1 class="title is-4 subtitle">
-              <strong>You can make this world</strong>
-              <second>better</second>
-            </h1>
+
+            <Heroanounce v-if="isHome" />
+
           </div>
         </div>
       </div>
@@ -34,11 +27,19 @@
 
 <script>
 import Navbar from "~/components/current/navbar";
+import Heroanounce from "~/components/current/hero-anounce"
 
 export default {
   name: "hero",
   components: {
-    Navbar
+    Navbar,
+    Heroanounce
+  },
+  computed: {
+    isHome() {
+      console.log(this.$route.name)
+      return this.$route.name == 'index'
+    }
   }
 }
 </script>

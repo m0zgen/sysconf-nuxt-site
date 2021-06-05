@@ -22,6 +22,14 @@
         </div>
       </div>
 
+      <a class="button is-warning" @click='toggle = !toggle'>Еще немного информации</a>
+      <br><br>
+      <div v-show='toggle'>
+        <div class="notification is-warning">
+          Оффлайн регистрация и регистрация докладчика <strong>скоро будут закрыты</strong> в виду полного набора состава участников
+        </div>
+      </div>
+
 <!--      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>-->
 <!--      <a class="button is-warning" onmouseover="glow()" href="membership">Подробнее об участии</a>-->
 
@@ -31,7 +39,12 @@
 
 <script>
 export default {
-  name: "register"
+  name: "register",
+  data() {
+    return {
+      toggle: false
+    }
+  },
 }
 </script>
 
