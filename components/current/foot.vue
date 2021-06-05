@@ -14,6 +14,7 @@
           </div>
         </div>
         <div class="column is-4 has-text-centered is-hidden-mobile orange is-bold">
+          <br>
           <h2 class="is-size-4 is-spaced white">Open SysConf</h2>
         </div>
         <div class="column is-4 has-text-centered">

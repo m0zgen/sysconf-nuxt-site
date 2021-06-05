@@ -98,6 +98,12 @@ export default {
           },
           {
             name: "Bauyrzhan D."
+          },
+          {
+            name: "@rustc"
+          },
+          {
+            name: "@nellya_ts"
           }
         ]
       }
