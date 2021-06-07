@@ -34,6 +34,10 @@
         </div>
       </div>
       <p class="subtitle has-text-centered is-6 white">© 2021</p>
+      <br>
+      <div class="has-text-centered">
+        <a class="orange-hover" href="#navigation">Наверх</a>
+      </div>
     </div>
   </section>
 </template>

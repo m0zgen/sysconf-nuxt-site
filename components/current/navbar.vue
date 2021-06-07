@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav id="navigation" class="navbar">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
