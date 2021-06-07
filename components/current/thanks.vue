@@ -35,7 +35,7 @@
           </div>
           <div class="level">
             <a href="#"></a>
-            <a href="https://t.me/b4tr_channel" target="_blank">b4tr_channel</a>
+            <a class="orange-hover" href="https://t.me/b4tr_channel" target="_blank">b4tr_channel</a>
           </div>
           <div class="level">
           </div>
@@ -50,7 +50,7 @@
             <a class="level-item" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
           </div>
           <div class="level">
-            <a href="https://t.me/mikrotikninja" target="_blank">Mikrotik Ninja</a>
+            <a class="orange-hover" href="https://t.me/mikrotikninja" target="_blank">Mikrotik Ninja</a>
           </div>
           <div class="level">
             <a href="#" target="_blank"></a>
@@ -61,7 +61,7 @@
       <div class="block orange divide">~ ~ ~</div>
       <h3 class="subtitle white">Дружественные ресурсы</h3> |
       <template v-for="site in content.frendly_sources">
-        <a v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
+        <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
 
     </div>

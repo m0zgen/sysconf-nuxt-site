@@ -35,6 +35,10 @@ body {
   height: 100vh;
 }
 
+a.level-item:hover, a.level:hover, .orange-hover:hover {
+  color: $orange;
+}
+
 .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
   background-color: $bg-general-color;
 }
