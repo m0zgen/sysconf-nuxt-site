@@ -5,40 +5,39 @@
       <div class="block orange divide">^ ^ ^</div>
     </div>
 
-    <div class="container">
-
-      <div class="columns">
-        <div class="column is-4 has-text-centered">
-          <div class="level">
-            <a class="level-item" href="https://forum.sys-adm.in" target="_blank">Sys-Admin Forum</a>
+      <div class="container">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item"><a class="title is-4 white orange-hover" href="#navigation">Open SysConf</a></div>
+          </div>
+          <div class="level-right">
             <a class="level-item" href="https://t.me/OpenSysConf" target="_blank">SysConf Group</a>
-          </div>
-          <div class="level">
-          </div>
-          <div class="level">
-          </div>
-        </div>
-        <div class="column is-4 has-text-centered is-hidden-mobile orange is-bold">
-          <br>
-          <h2 class="is-size-4 is-spaced white">Open SysConf</h2>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <div class="level">
             <a class="level-item" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
-            <a class="level-item" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
+            <a class="level-item" href="https://forum.sys-adm.in" target="_blank">Sys-Admin Forum</a>
           </div>
-          <div class="level">
+        </div>
+        <hr class="hr-divider">
+        <div class="columns">
+          <div class="column">
+            <div class="buttons">
+<!--              <a class="button" href="#">-->
+<!--                <img src="placeholder/icons/twitter.svg" alt="">-->
+<!--              </a>-->
+<!--              <a class="button" href="#">-->
+<!--                <img src="placeholder/icons/facebook-f.svg" alt="">-->
+<!--              </a><a class="button" href="#">-->
+<!--              <img src="placeholder/icons/instagram.svg" alt="">-->
+<!--            </a>-->
+            </div>
           </div>
-          <div class="level">
+          <div class="column has-text-centered has-text-right-tablet">
+            <p class="subtitle is-6">© 2021 Open SysConf. All right reserved.</p>
           </div>
         </div>
       </div>
-      <p class="subtitle has-text-centered is-6 white">© 2021</p>
-      <br>
-      <div class="has-text-centered">
-        <a class="orange-hover" href="#navigation">Наверх</a>
-      </div>
-    </div>
+
+
+
   </section>
 </template>
 

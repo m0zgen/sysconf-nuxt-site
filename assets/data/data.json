@@ -7,7 +7,7 @@
       "presentation": "eBPF. Митигация ddos атак.",
       "description": "",
       "activity": "@HacksnPerks, SCM",
-      "photo": ""
+      "photo": "~/assets/images/member-circle.png"
     },
     {
       "name": "Сабыржан \"novitoll\" Тасболатов",
@@ -16,7 +16,7 @@
       "presentation": "Linux ядро для хакера",
       "description": "Рассмотрим CVE на Linux ядро 2019-2021 года для получения рута. Закрепление (руткит) через ядро. Потенциальные 0-day уязвимости в ядре. Процесс патчинга уязвимостей ядра.",
       "activity": "@novitoll_ch, SCM",
-      "photo": ""
+      "photo": "~/assets/images/member-circle.png"
     },
     {
       "name": "Мурат (@manfromkz)",
@@ -25,7 +25,7 @@
       "presentation": "Нетаргетированный фишинг",
       "description": "Доклад покажет и докажет, почему нужно быть внимательными в глобальной сети",
       "activity": "SCM",
-      "photo": ""
+      "photo": "~/assets/images/member-circle.png"
     },
     {
       "name": "Ильяс Ислямов",
@@ -34,7 +34,7 @@
       "presentation": "Secret interception via eBPF",
       "description": "Step-by-step как научиться перехватывать пароль пользователя при логине или sudo команде. Сначала найдем бинарь, который отвечает за проверку пароля. Поковыряемся в исходниках и напишем bpftrace программу, которая будет выводить введенные пароли.",
       "activity": "",
-      "photo": ""
+      "photo": "member-circle.png"
     },
     {
       "name": "Евгений Гончаров",
@@ -43,7 +43,7 @@
       "presentation": "Check Windows and Control Configs and Security",
       "description": "Зачем нужен CI. Управление и контроль конфигураций Windows. Автоматизация контроля и профилирование проверок систем на соответствие внутренним конфигурационным стандартам при помощи PowerShell (CWiCCS)",
       "activity": "SCM",
-      "photo": ""
+      "photo": "sysadmin-up-avatar.png"
     }
   ],
   "thanks": [

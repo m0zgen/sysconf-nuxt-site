@@ -86,6 +86,27 @@ a.level-item:hover, a.level:hover, .orange-hover:hover {
   color: $primary;
 }
 
+section.footer.section-content {
+  background: linear-gradient(
+      0deg
+    , #0f1421, #1A2238);
+}
+
+.hr-divider {
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #2a375d;
+  margin: 1em 0; padding: 0;
+}
+
+.is-divider.blue, .is-divider-vertical.blue {
+  border-top: .1rem solid #2c395a;
+}
+
+.is-divider-vertical[data-content].blue::after, .is-divider[data-content].blue::after {
+  background: #1a2238;
+  color: #2c395a;
+}
+
 .subtitle second {
   color: $strong-secondary;
   font-weight: 600;

@@ -9,7 +9,9 @@
         <div class="column is-6 is-3-widescreen mb-6" v-for="user in content.speakers" :key="user">
           <div class="level">
             <div class="level-item">
-              <figure class="image is-222x222"><img class="is-rounded" src="~/assets/images/member-circle.png" alt="">
+              <figure class="image is-128x128">
+<!--                <img class="is-rounded" src="~/assets/images/member-circle.png" alt="">-->
+                <img class="is-rounded" :src="`../assets/images/${user.photo}`" alt="">
               </figure>
             </div>
           </div>

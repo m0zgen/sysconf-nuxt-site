@@ -14,7 +14,8 @@
         </template> |
       </ul>
       <br>
-      <div class="block orange divide">~ ~ ~</div>
+
+      <div class="is-divider blue" data-content="||"></div>
       <h3 class="subtitle white">Волонтеры</h3>
 
       <ul class="white">
@@ -25,7 +26,8 @@
         </template> |
       </ul>
       <br>
-      <div class="block orange divide">~ ~ ~</div>
+
+      <div class="is-divider blue" data-content="||"></div>
       <h3 class="subtitle white">Информационная поддержка</h3>
 
       <div class="columns">
@@ -58,13 +60,14 @@
         </div>
       </div>
 
-      <div class="block orange divide">~ ~ ~</div>
+      <div class="is-divider blue" data-content="||"></div>
       <h3 class="subtitle white">Дружественные ресурсы</h3> |
       <template v-for="site in content.frendly_sources">
         <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
 
     </div>
+
   </section>
 </template>
 
