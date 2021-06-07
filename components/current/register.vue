@@ -29,10 +29,7 @@
           Оффлайн регистрация и регистрация докладчика <strong>скоро будут закрыты</strong> в виду полного набора состава участников
         </div>
       </div>
-
 <!--      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>-->
-<!--      <a class="button is-warning" onmouseover="glow()" href="membership">Подробнее об участии</a>-->
-
     </div>
   </section>
 </template>

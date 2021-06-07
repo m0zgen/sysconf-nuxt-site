@@ -4,6 +4,7 @@
     <Slogan />
     <Speakers />
     <Timeline />
+    <Details />
     <Register />
     <Location />
     <Supports/>
@@ -16,10 +17,12 @@ import Hero from '~/components/current/hero';
 import Slogan from '~/components/current/slogan';
 import Speakers from '~/components/current/speakers';
 import Timeline from '~/components/current/timeline';
+import Details from "@/components/current/details";
 import Register from '~/components/current/register';
 import Location from "~/components/current/location";
 import Supports from "~/components/current/supports";
 import Thanks from "~/components/current/thanks";
+
 
 export default {
   components: {
@@ -27,6 +30,7 @@ export default {
     Slogan,
     Speakers,
     Timeline,
+    Details,
     Register,
     Location,
     Supports,

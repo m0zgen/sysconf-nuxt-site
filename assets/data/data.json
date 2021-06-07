@@ -1,5 +1,5 @@
 {
-  "users": [
+  "speakers": [
     {
       "name": "Маргулан Молдабеков",
       "company": "BTS Digital",
@@ -44,6 +44,86 @@
       "description": "Зачем нужен CI. Как решать вопросы с контролем CI при помощи PowerShell (CWiCCS)",
       "activity": "SCM",
       "photo": ""
+    }
+  ],
+  "thanks": [
+    {
+      "name": "@bekenovalibek"
+    },
+    {
+      "name": "@bessmertnyiponi"
+    },
+    {
+      "name": "@offsec"
+    },
+    {
+      "name": "MODE_ON"
+    },
+    {
+      "name": "@manfromkz"
+    },
+    {
+      "name": "@sysroman"
+    },
+    {
+      "name": "@yerzhanm"
+    },
+    {
+      "name": "@Thatskriptkid"
+    },
+    {
+      "name": "@Batkailyas"
+    },
+    {
+      "name": "@t2micro"
+    },
+    {
+      "name": "Bauyrzhan D."
+    }
+  ],
+  "volunteers": [
+    {
+      "name": "@inzgiba"
+    },
+    {
+      "name": "@rustc"
+    },
+    {
+      "name": "@nellya_ts"
+    }
+  ],
+  "frendly_sources": [
+    {
+      "name": "Nitro Team",
+      "link": "https://nitroteam.kz/"
+    },
+    {
+      "name": "Spectre Security",
+      "link": "https://spectre.kz/"
+    },
+    {
+      "name": "BTS Digital",
+      "link": "https://btsdigital.kz/"
+    },
+    {
+      "name": "Spectre Security",
+      "link": "https://spectre.kz/"
+    },
+    {
+      "name": "Hacker Vision",
+      "link": "https://hackervision.org/"
+    },
+    {
+      "name": "Sys-Adm.in",
+      "link": "https://sys-adm.in"
+    },
+    {
+      "name": "Order of Six Angles",
+      "link": "https://t.me/OrderOfSixAngles"
+    },
+    {
+      "name": "novitoll_ch",
+      "link": "https://t.me/novitoll_ch"
     }
   ]
 }

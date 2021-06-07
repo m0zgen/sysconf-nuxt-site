@@ -3,15 +3,29 @@
     <div class="container has-text-centered">
       <h2 class="title is-spaced white">Благодарности</h2>
       <div class="block orange divide">~ ~ ~</div>
+
       <h3 class="subtitle white">Организационная и финансовая помощь</h3>
+
       <ul class="white">
-        <li v-for="(user, index) in content.users">
-<!--          <div v-if="index == content.users.length - 1">;</div>-->
-<!--          <div v-else>{{user.name}},</div>-->
-         - {{user.name}}
-        </li>
+        <template v-for="user in content.thanks"> |
+          <li >
+            {{user.name}}
+          </li>
+        </template> |
       </ul>
       <br>
+      <div class="block orange divide">~ ~ ~</div>
+      <h3 class="subtitle white">Волонтеры</h3>
+
+      <ul class="white">
+        <template v-for="user in content.volunteers"> |
+          <li>
+            {{user.name}}
+          </li>
+        </template> |
+      </ul>
+      <br>
+      <div class="block orange divide">~ ~ ~</div>
       <h3 class="subtitle white">Информационная поддержка</h3>
 
       <div class="columns">
@@ -24,12 +38,13 @@
             <a href="https://t.me/b4tr_channel" target="_blank">b4tr_channel</a>
           </div>
           <div class="level">
-
           </div>
         </div>
+
         <div class="column is-4 has-text-centered is-hidden-mobile orange is-bold">
           <a class="level-item" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
         </div>
+
         <div class="column is-4 has-text-centered">
           <div class="level">
             <a class="level-item" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
@@ -43,70 +58,25 @@
         </div>
       </div>
 
-      <br>
+      <div class="block orange divide">~ ~ ~</div>
       <h3 class="subtitle white">Дружественные ресурсы</h3> |
-      <a href="https://nitroteam.kz/" target="_blank">Nitro Team</a> |
-      <a href="https://spectre.kz/" target="_blank">Spectre Security</a> |
-      <a href="https://btsdigital.kz/" target="_blank">BTS Digital</a> |
-      <a href="https://hackervision.org/" target="_blank">Hacker Vision</a> |
-      <a href="https://sys-adm.in">Sys-Adm.in</a> |
-      <a href="https://t.me/OrderOfSixAngles" target="_blank">Order of Six Angles</a> |
-      <a href="https://t.me/novitoll_ch" target="_blank">novitoll_ch</a> |
+      <template v-for="site in content.frendly_sources">
+        <a v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
+      </template>
+
     </div>
   </section>
 </template>
 
 <script>
+import datausers from 'assets/data/data.json';
+
 export default {
   name: "thanks",
   data() {
     return {
-      content: {
-        users: [
-          {
-            name: "@bekenovalibek"
-          },
-          {
-            name: "@bessmertnyiponi"
-          },
-          {
-            name: "@offsec"
-          },
-          {
-            name: "MODE_ON"
-          },
-          {
-            name: "@manfromkz"
-          },
-          {
-            name: "@sysroman"
-          },
-          {
-            name: "@yerzhanm"
-          },
-          {
-            name: "@inzgiba"
-          },
-          {
-            name: "@Thatskriptkid"
-          },
-          {
-            name: "@Batkailyas"
-          },
-          {
-            name: "@t2micro"
-          },
-          {
-            name: "Bauyrzhan D."
-          },
-          {
-            name: "@rustc"
-          },
-          {
-            name: "@nellya_ts"
-          }
-        ]
-      }
+      content: datausers,
+      isLoading: true
     }
   }
 }

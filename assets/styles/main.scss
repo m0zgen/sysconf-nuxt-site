@@ -30,6 +30,10 @@ $strong-primary: #FF6A3D;
 $orange: #FF6A3D;
 $strong-secondary: #9DAAF2;
 
+body {
+  background-color: $bg-general-color;
+  height: 100vh;
+}
 
 .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
   background-color: $bg-general-color;
@@ -57,6 +61,11 @@ $strong-secondary: #9DAAF2;
 
 .navbar-link.dropped-menu {
   background-color: #010102;
+}
+
+// Navbar on every page except HOME
+.hero-head.nav-second, {
+  background-color: #1a2238;
 }
 
 // Design elements

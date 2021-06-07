@@ -39,7 +39,7 @@
         </div>
 
 
-        <div class="timeline-item is-warning" v-for="user in content.users" :key="user">
+        <div class="timeline-item is-warning" v-for="user in content.speakers" :key="user">
           <div class="timeline-marker is-warning is-image is-32x32">
             <img src="https://bulma.io/images/placeholders/32x32.png">
           </div>
@@ -63,7 +63,7 @@
 
 <script>
 
-import datausers from '~/assets/data/speakers.json';
+import datausers from 'assets/data/data.json';
 
 // console.log(data)
 

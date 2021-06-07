@@ -6,7 +6,7 @@
       <!--        <p class="subtitle mb-6 blue">Те, кто старается делать этот мир лучше</p>-->
       <div class="columns is-centered is-multiline py-5">
 
-        <div class="column is-6 is-3-widescreen mb-6" v-for="user in content.users" :key="user">
+        <div class="column is-6 is-3-widescreen mb-6" v-for="user in content.speakers" :key="user">
           <div class="level">
             <div class="level-item">
               <figure class="image is-222x222"><img class="is-rounded" src="~/assets/images/member-circle.png" alt="">
@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import datausers from '~/assets/data/speakers.json';
+import datausers from 'assets/data/data.json';
 
 export default {
   name: "speakers",

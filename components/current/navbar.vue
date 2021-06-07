@@ -24,29 +24,8 @@
             About
           </nuxt-link>
 
-          <!--        Dropdown menu-->
-          <div class="navbar-item has-dropdown is-hoverable is-warning">
-            <a class="navbar-link dropped-menu" href="#">
-              Previous
-            </a>
+          <a class="navbar-item" href="https://sysconf.io" target="_blank">SysConf'19</a>
 
-            <div class="navbar-dropdown is-hidden-mobile is-boxed">
-              <a class="navbar-item" href="https://sysconf.io" target="_blank">SysConf'19</a>
-<!--              <nuxt-link class="navbar-item" active-class="is-active"  to="/sysconf-19">-->
-<!--                SysConf'19-->
-<!--              </nuxt-link>-->
-<!--              <a class="navbar-item" href="#">-->
-<!--                Submenu 2-->
-<!--              </a>-->
-            </div>
-          </div>
-
-          <span class="navbar-item">
-              <a class="button is-primary" href="https://forum.sys-adm.in" target="_blank">
-                <fa :icon="['fas', 'arrow-right']" />
-                <span>&nbspForum</span>
-              </a>
-          </span>
         </div>
 
       </div>
