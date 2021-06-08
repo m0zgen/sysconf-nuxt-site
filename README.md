@@ -13,7 +13,13 @@ This is open initiate and we don't have sponsors and we are using funds from don
 ## Credits
 
 * Address: https://sysconf.io
-* Sysconf based on start package for [Bulma](http://bulma.io)
+* Sysconf used on:
+  * [Bulma](http://bulma.io)
+  * [NuxtJS](https://nuxtjs.org/)
+  * [Vue.js](https://vuejs.org/)
+  * Image pixelate - https://img8bit.com/
+  * Image Editor - http://firealpaca.com/
+  * Code editor - [Sublime Text](https://www.sublimetext.com/) and [WebStorm](https://www.jetbrains.com/webstorm/)
 * Communities:
   * [Open SysConf](https://t.me/OpenSysConf)
   * [Sys-Admin Help](https://t.me/sysadm_in)
