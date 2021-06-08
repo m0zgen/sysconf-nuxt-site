@@ -11,7 +11,8 @@
             <div class="level-item">
               <figure class="image is-128x128">
 <!--                <img class="is-rounded" src="~/assets/images/member-circle.png" alt="">-->
-                <img class="is-rounded" :src="`../assets/images/${user.photo}`" alt="">
+<!--                {{user.photo}}-->
+                <img class="is-rounded" :src="require(`~/assets/images/${user.photo}`)" alt="">
               </figure>
             </div>
           </div>

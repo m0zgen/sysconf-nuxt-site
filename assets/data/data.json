@@ -7,25 +7,25 @@
       "presentation": "eBPF. Митигация ddos атак.",
       "description": "",
       "activity": "@HacksnPerks, SCM",
-      "photo": "~/assets/images/member-circle.png"
+      "photo": "mldbk-avatar.jpg"
     },
     {
       "name": "Сабыржан \"novitoll\" Тасболатов",
       "company": "Spectre Security Group",
       "position": "Пентестер/Исследователь безопасности",
       "presentation": "Linux ядро для хакера",
-      "description": "Рассмотрим CVE на Linux ядро 2019-2021 года для получения рута. Закрепление (руткит) через ядро. Потенциальные 0-day уязвимости в ядре. Процесс патчинга уязвимостей ядра.",
+      "description": "Описание уже скоро",
       "activity": "@novitoll_ch, SCM",
-      "photo": "~/assets/images/member-circle.png"
+      "photo": "novitoll-crazy-avatar.jpg"
     },
     {
       "name": "Мурат (@manfromkz)",
       "company": "NitroTeam.kz",
       "position": "Web application pentester, researcher",
       "presentation": "Нетаргетированный фишинг",
-      "description": "Доклад покажет и докажет, почему нужно быть внимательными в глобальной сети",
+      "description": "Описание уже скоро",
       "activity": "SCM",
-      "photo": "~/assets/images/member-circle.png"
+      "photo": "member-circle.png"
     },
     {
       "name": "Ильяс Ислямов",
@@ -37,11 +37,11 @@
       "photo": "member-circle.png"
     },
     {
-      "name": "Евгений Гончаров",
+      "name": "Евгений \"Sys-Adm.in\" Гончаров",
       "company": "Sys-Adm.in",
       "position": "",
       "presentation": "Check Windows and Control Configs and Security",
-      "description": "Зачем нужен CI. Управление и контроль конфигураций Windows. Автоматизация контроля и профилирование проверок систем на соответствие внутренним конфигурационным стандартам при помощи PowerShell (CWiCCS)",
+      "description": "Описание уже скоро",
       "activity": "SCM",
       "photo": "sysadmin-up-avatar.png"
     }
@@ -79,6 +79,9 @@
     },
     {
       "name": "Bauyrzhan D."
+    },
+    {
+      "name": "Ilyas M"
     }
   ],
   "volunteers": [

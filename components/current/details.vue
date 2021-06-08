@@ -6,7 +6,8 @@
       <h2 class="title is-spaced">Детали по докладам</h2>
       <div class="block orange divide">~ ~ ~</div>
 
-      <div class="card" v-for="user in content.speakers" :key="user.description">
+      <div class="card card-speakers" v-for="user in content.speakers" :key="user.description">
+
         <template v-if="user.description !== ''">
           <div class="card-content">
             <p class="subtitle">
@@ -17,6 +18,7 @@
             </p>
           </div>
         </template>
+
       </div>
 
     </div>
