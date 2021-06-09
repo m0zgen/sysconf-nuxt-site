@@ -56,6 +56,7 @@ fi
 
 function init_dev() {
 
+#    git checkout dev
     docker build -t $imageDevName -f Dockerfile  .
 
     echo Delete old container...
@@ -67,7 +68,6 @@ function init_dev() {
 
 function init_release() {
 
-    git checkout dev
     docker build -t $imageReleaseName -f Dockerfile  .
 
     echo Delete old container...

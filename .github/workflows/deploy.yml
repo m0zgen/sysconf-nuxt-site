@@ -43,5 +43,5 @@ jobs:
          KEY: ${{ secrets.SSHKEY }}
          script: |
            chmod +x ./nuxt-deploy/build.sh
-           ./nuxt-deploy/build.sh
+           ./nuxt-deploy/build.sh -r
 
