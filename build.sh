@@ -7,8 +7,12 @@ PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 SCRIPT_PATH=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 cd $SCRIPT_PATH
 
-imageName=sysconf:nux-site-dev
-containerName=sysconf-nux-site-dev
+imageDevName=sysconf:nux-site-dev
+containerDevName=sysconf-nux-site-dev
+
+imageReleaseName=sysconf:nux-site-release
+containerReleaseName=sysconf-nux-site-release
+
 
 
 # Init
@@ -19,7 +23,7 @@ usage() {
 	echo -e "
 -d or --dev: deploy dev
 -r or --release: deploy release
--p or --prefix: maybe use in future\n"
+-p or --port: set custom docker port\n"
 	exit 1
 
 }
@@ -36,36 +40,41 @@ while [[ "$#" -gt 0 ]]; do
     case $1 in
         -d|--dev) _DEV=1; ;;
 		    -r|--release) _RELEASE=1; ;;
-		    -p|--prefix) prefix="$2"; shift ;;
+		    -p|--port) port="$2"; shift ;;
 		    -h|--help) usage ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
 done
 
+if [ -z $port ]; then
+    port=45863
+fi
+
 # Logic
 # ---------------------------------------------------\
 
 function init_dev() {
 
-    docker build -t $imageName -f Dockerfile  .
+    docker build -t $imageDevName -f Dockerfile  .
 
     echo Delete old container...
-    docker rm -f $containerName
+    docker rm -f $containerDevName
 
     echo Run new container...
-    docker run -d -p 45863:3000 --name $containerName $imageName
+    docker run -d -p 45863:3000 --name $containerDevName $imageDevName
 }
 
 function init_release() {
 
-    docker build -t $imageName -f Dockerfile  .
+    git checkout dev
+    docker build -t $imageReleaseName -f Dockerfile  .
 
     echo Delete old container...
-    docker rm -f $containerName
+    docker rm -f $containerReleaseName
 
     echo Run new container...
-    docker run -d -p 45863:3000 --name $containerName $imageName
+    docker run -d -p 45866:3000 --name $containerReleaseName $imageReleaseName
 }
 
 if [[ $_DEV ]]; then

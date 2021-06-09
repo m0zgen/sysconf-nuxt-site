@@ -1,6 +1,10 @@
-name: Deploy
+name: Deploy MASTER
 
-on: [push]
+#on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:

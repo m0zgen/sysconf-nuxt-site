@@ -25,7 +25,7 @@
       "presentation": "Нетаргетированный фишинг",
       "description": "Описание уже скоро",
       "activity": "SCM",
-      "photo": "member-circle.png"
+      "photo": "member-circle.jpg"
     },
     {
       "name": "Ильяс Ислямов",
@@ -34,7 +34,7 @@
       "presentation": "Secret interception via eBPF",
       "description": "Step-by-step как научиться перехватывать пароль пользователя при логине или sudo команде. Сначала найдем бинарь, который отвечает за проверку пароля. Поковыряемся в исходниках и напишем bpftrace программу, которая будет выводить введенные пароли.",
       "activity": "",
-      "photo": "member-circle.png"
+      "photo": "ilyas-islamov-avatar.png"
     },
     {
       "name": "Евгений \"Sys-Adm.in\" Гончаров",
