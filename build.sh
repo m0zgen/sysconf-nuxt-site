@@ -74,6 +74,7 @@ function init_release() {
     docker rm -f $containerReleaseName
 
     echo Run new container...
+    # docker start d20945a50d05 --restart always
     docker run -d -p 45866:3000 --name $containerReleaseName $imageReleaseName
 }
 

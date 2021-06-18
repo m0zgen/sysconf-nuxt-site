@@ -13,6 +13,7 @@
           <div class="level-right">
             <a class="level-item" href="https://t.me/OpenSysConf" target="_blank">SysConf Group</a>
             <a class="level-item" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
+            <a class="level-item" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
             <a class="level-item" href="https://forum.sys-adm.in" target="_blank">Sys-Admin Forum</a>
           </div>
         </div>
@@ -31,7 +32,7 @@
             </div>
           </div>
           <div class="column has-text-centered has-text-right-tablet">
-            <p class="subtitle is-6">© 2021 Open SysConf. All right reserved.</p>
+            <p class="subtitle is-6">© 2019-{{ currentDate.getFullYear() }} Open SysConf. All right reserved.</p>
           </div>
         </div>
       </div>
@@ -43,7 +44,12 @@
 
 <script>
 export default {
-  name: "foot"
+  name: "foot",
+  data() {
+    return {
+      currentDate: new Date,
+    }
+  }
 }
 </script>
 
