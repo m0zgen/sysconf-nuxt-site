@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="column has-text-centered has-text-right-tablet">
-            <p class="subtitle is-6">© 2021 Open SysConf. All right reserved.</p>
+            <p class="subtitle is-6">© 2019-{{ currentDate.getFullYear() }} Open SysConf. All right reserved.</p>
           </div>
         </div>
       </div>
@@ -44,7 +44,12 @@
 
 <script>
 export default {
-  name: "foot"
+  name: "foot",
+  data() {
+    return {
+      currentDate: new Date,
+    }
+  }
 }
 </script>
 
