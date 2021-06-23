@@ -44,7 +44,7 @@
             <img src="https://bulma.io/images/placeholders/32x32.png">
           </div>
           <div class="timeline-content">
-            <p class="heading">{{user.presentation}}
+            <p class="heading p-colored">{{user.presentation}}
               <br>
               {{user.name}}
             </p>

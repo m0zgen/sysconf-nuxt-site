@@ -173,3 +173,14 @@ ul.bullet-circle li {
 }
 
 ////
+
+.heading + p::first-letter {
+  //font-weight: bold;
+  //color: $bg-general-color;
+}
+
+.p-colored::first-letter {
+  color: $orange;
+  font-weight: bold;
+  font-size: 14px;
+}
