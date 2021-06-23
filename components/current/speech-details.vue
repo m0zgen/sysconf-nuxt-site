@@ -29,7 +29,7 @@
 import data from 'assets/data/data.json';
 
 export default {
-  name: "details",
+  name: "speechDetails",
   data() {
     return {
       content: data,
