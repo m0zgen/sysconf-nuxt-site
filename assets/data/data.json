@@ -19,6 +19,24 @@
       "photo": "novitoll-crazy-avatar.jpg"
     },
     {
+      "name": "Uli (@ulkbk)",
+      "company": "digital-id.kz",
+      "position": "Давай IT Sec Eng",
+      "presentation": "DIY Vulnerability scanner, BugHunter",
+      "description": "Как собрать кастомизированный внешний сканер уязвимостей с минимальным false-positive-ом на базе open-source тулзов который смог зайти топ-10 в локальной Bugbounty платформе.",
+      "activity": "IT Sec Eng",
+      "photo": "ulkbk_avatar.jpg"
+    },
+    {
+      "name": "Ильяс Аринов",
+      "company": "Aitu Dala",
+      "position": "DecOps",
+      "presentation": "Инфраструктурная проблематика взрывного роста стартапа",
+      "description": "Региональным инженерам, которые могут столкнуться с неожиданным внезапным ростом посещаемости продукта.",
+      "activity": "SCM",
+      "photo": "ilyas-arinov-avatar.jpg"
+    },
+    {
       "name": "Мурат (@manfromkz)",
       "company": "NitroTeam.kz",
       "position": "Web application pentester, researcher",
@@ -127,6 +145,10 @@
     {
       "name": "novitoll_ch",
       "link": "https://t.me/novitoll_ch"
+    },
+    {
+      "name": "One brick to the IT world",
+      "link": "https://murat.one/"
     }
   ]
 }

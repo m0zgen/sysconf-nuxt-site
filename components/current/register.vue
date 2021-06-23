@@ -16,7 +16,7 @@
           </div>
           <div class="is-divider-vertical" data-content="ИЛИ"></div>
           <div class="column has-text-left">
-            <a class="button is-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd3JYF9ICgrSyL7fpkb-3YNXMuxEm9ncY0VlD_IlNMSCB9oAA/viewform?usp=sf_link">
+            <a class="button is-primary" @click='toggleSpeakerRegister = !toggleSpeakerRegister'>
               Регистрация докладчика</a>
           </div>
         </div>
@@ -24,6 +24,11 @@
 
       <a class="button is-warning" @click='toggle = !toggle'>Еще немного информации</a>
       <br><br>
+      <div v-show='toggleSpeakerRegister'>
+        <div class="notification is-warning">
+          Регистрация докладчика <strong>закрыта</strong>
+        </div>
+      </div>
       <div v-show='toggle'>
         <div class="notification is-warning">
           Оффлайн регистрация и регистрация докладчика <strong>скоро будут закрыты</strong> в виду полного набора состава участников
@@ -39,7 +44,9 @@ export default {
   name: "register",
   data() {
     return {
-      toggle: false
+      toggle: false,
+      toggleSpeakerRegister: false,
+      toggleOfflineRegister: false
     }
   },
 }
