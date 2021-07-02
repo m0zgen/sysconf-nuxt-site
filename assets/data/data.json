@@ -14,7 +14,7 @@
       "company": "Spectre Security Group",
       "position": "Пентестер/Исследователь безопасности",
       "presentation": "Linux ядро для хакера",
-      "description": "Описание уже скоро",
+      "description": "Рассмотрим CVE на Linux ядро 2019-2021 года для получения рута. Закрепление (руткит) через ядро. Потенциальные 0-day уязвимости в ядре. Процесс патчинга уязвимостей ядра.",
       "activity": "@novitoll_ch, SCM",
       "photo": "novitoll-crazy-avatar.jpg"
     },
