@@ -1,6 +1,7 @@
 # Open SysConf
 
-[![Deploy](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy.yml)
+[![Deploy DEV](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy-dev.yml/badge.svg)](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy-dev.yml)
+[![Deploy MASTER](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy-master.yml/badge.svg)](https://github.com/m0zgen/sysconf-nuxt-site/actions/workflows/deploy-master.yml)
 
 Open SysConf is an open community based on our [Sys-Admin Forum](https://forum.sys-adm.in) this in a forum target on - helping people solve their technical problems.
 
