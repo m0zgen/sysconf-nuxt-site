@@ -5,7 +5,7 @@
       "company": "BTS Digital",
       "position": "",
       "presentation": "eBPF. Митигация ddos атак.",
-      "description": "",
+      "description": "Как быстро обрабатывать пакеты не нагружая ядро ОС",
       "activity": "@HacksnPerks, SCM",
       "photo": "mldbk-avatar.jpg"
     },
@@ -59,7 +59,7 @@
       "company": "Sys-Adm.in",
       "position": "",
       "presentation": "Check Windows and Control Configs and Security",
-      "description": "Описание уже скоро",
+      "description": "Зачем нужен CI. Управление и контроль конфигураций Windows. Автоматизация контроля и профилирование проверок систем на соответствие внутренним конфигурационным стандартам при помощи PowerShell (CWiCCS)",
       "activity": "SCM",
       "photo": "sysadmin-up-avatar.png"
     }
@@ -132,6 +132,9 @@
     },
     {
       "name": "@rishatazizov"
+    },
+    {
+      "name": "@R0b0Cat"
     }
   ],
   "frendly_sources": [
@@ -146,10 +149,6 @@
     {
       "name": "BTS Digital",
       "link": "https://btsdigital.kz/"
-    },
-    {
-      "name": "Spectre Security",
-      "link": "https://spectre.kz/"
     },
     {
       "name": "Hacker Vision",
