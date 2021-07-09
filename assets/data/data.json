@@ -59,7 +59,7 @@
       "company": "Sys-Adm.in",
       "position": "",
       "presentation": "Check Windows and Control Configs and Security",
-      "description": "Описание уже скоро",
+      "description": "Зачем нужен CI. Управление и контроль конфигураций Windows. Автоматизация контроля и профилирование проверок систем на соответствие внутренним конфигурационным стандартам при помощи PowerShell (CWiCCS)",
       "activity": "SCM",
       "photo": "sysadmin-up-avatar.png"
     }
