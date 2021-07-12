@@ -8,7 +8,7 @@
 
       <div class="card card-speakers" v-for="user in content.speakers" :key="user.description">
 
-        <template v-if="user.description !== ''">
+        <template v-if="user.presentation_hide !== '1'">
           <div class="card-content">
             <p class="subtitle">
               <b>{{ user.presentation }}</b> - {{ user.description }}
