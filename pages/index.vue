@@ -6,7 +6,7 @@
     <Timeline />
     <Register />
     <SpeechDetails />
-    <Location />
+<!--    <Location />-->
     <Supports/>
     <Thanks/>
   </div>

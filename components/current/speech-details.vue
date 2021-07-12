@@ -8,10 +8,11 @@
 
       <div class="card card-speakers" v-for="user in content.speakers" :key="user.description">
 
-        <template v-if="user.description !== ''">
+        <template v-if="user.presentation_hide !== '1'">
           <div class="card-content">
             <p class="subtitle">
               <b>{{ user.presentation }}</b> - {{ user.description }}
+              <a v-bind:href="user.youtube_link" target="_blank"> >> </a>
             </p>
             <p class="subtitle orange">
               {{ user.name }}
@@ -22,6 +23,18 @@
       </div>
 
     </div>
+
+<!--    <div class="container has-text-centered">-->
+
+<!--      <div class="block orange divide">~ ~ ~</div>-->
+
+<!--      <div class="columns">-->
+<!--        <div class="column">-->
+<!--          <iframe width="560" height="315" src="https://www.youtube.com/embed/qGz7Vz_dw8Y?start=193" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
   </section>
 </template>
 

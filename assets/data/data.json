@@ -5,63 +5,84 @@
       "company": "BTS Digital",
       "position": "",
       "presentation": "eBPF. Митигация ddos атак.",
+      "presentation_hide": "1",
       "description": "Как быстро обрабатывать пакеты не нагружая ядро ОС",
       "activity": "@HacksnPerks, SCM",
-      "photo": "mldbk-avatar.jpg"
+      "photo": "mldbk-avatar.jpg",
+      "youtube_link": "",
+      "speaker_hide": "1"
     },
     {
       "name": "Сабыржан \"novitoll\" Тасболатов",
       "company": "Spectre Security Group",
       "position": "Пентестер/Исследователь безопасности",
       "presentation": "Linux ядро для хакера",
+      "presentation_hide": "",
       "description": "Рассмотрим CVE на Linux ядро 2019-2021 года для получения рута. Закрепление (руткит) через ядро. Потенциальные 0-day уязвимости в ядре. Процесс патчинга уязвимостей ядра.",
       "activity": "@novitoll_ch, SCM",
-      "photo": "novitoll-crazy-avatar.jpg"
-    },
-    {
-      "name": "Uli (@ulkbk)",
-      "company": "digital-id.kz",
-      "position": "Давай IT Sec Eng",
-      "presentation": "DIY Vulnerability scanner, BugHunter",
-      "description": "Как собрать кастомизированный внешний сканер уязвимостей с минимальным false-positive-ом на базе open-source тулзов который смог зайти топ-10 в локальной Bugbounty платформе.",
-      "activity": "IT Sec Eng",
-      "photo": "ulkbk_avatar.jpg"
+      "photo": "novitoll-crazy-avatar.jpg",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=193s",
+      "speaker_hide": ""
     },
     {
       "name": "Ильяс Аринов",
       "company": "Aitu Dala",
       "position": "DecOps",
       "presentation": "Инфраструктурная проблематика взрывного роста стартапа",
+      "presentation_hide": "",
       "description": "Региональным инженерам, которые могут столкнуться с неожиданным внезапным ростом посещаемости продукта.",
       "activity": "SCM",
-      "photo": "ilyas-arinov-avatar.jpg"
+      "photo": "ilyas-arinov-avatar.jpg",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=3372s",
+      "speaker_hide": ""
+    },
+    {
+      "name": "Uli (@ulkbk)",
+      "company": "digital-id.kz",
+      "position": "Давай IT Sec Eng",
+      "presentation": "DIY Vulnerability scanner, BugHunter",
+      "presentation_hide": "",
+      "description": "Как собрать кастомизированный внешний сканер уязвимостей с минимальным false-positive-ом на базе open-source тулзов который смог зайти топ-10 в локальной Bugbounty платформе.",
+      "activity": "IT Sec Eng",
+      "photo": "ulkbk_avatar.jpg",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=9965s",
+      "speaker_hide": ""
     },
     {
       "name": "Мурат (@manfromkz)",
       "company": "NitroTeam.kz",
       "position": "Web application pentester, researcher",
       "presentation": "Нетаргетированный фишинг",
+      "presentation_hide": "",
       "description": "Доклад покажет и докажет, почему нужно быть внимательными в глобальной сети.",
       "activity": "SCM",
-      "photo": "member-circle.jpg"
+      "photo": "member-circle.jpg",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=11592s",
+      "speaker_hide": ""
     },
     {
       "name": "Ильяс Ислямов",
       "company": "BTS Digital",
       "position": "IT Security Analyst",
       "presentation": "Secret interception via eBPF",
+      "presentation_hide": "",
       "description": "Step-by-step как научиться перехватывать пароль пользователя при логине или sudo команде. Сначала найдем бинарь, который отвечает за проверку пароля. Поковыряемся в исходниках и напишем bpftrace программу, которая будет выводить введенные пароли.",
       "activity": "",
-      "photo": "ilyas-islamov-avatar.png"
+      "photo": "ilyas-islamov-avatar.png",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=3379s",
+      "speaker_hide": ""
     },
     {
       "name": "Евгений \"Sys-Adm.in\" Гончаров",
       "company": "Sys-Adm.in",
       "position": "",
       "presentation": "Check Windows and Control Configs and Security",
+      "presentation_hide": "",
       "description": "Зачем нужен CI. Управление и контроль конфигураций Windows. Автоматизация контроля и профилирование проверок систем на соответствие внутренним конфигурационным стандартам при помощи PowerShell (CWiCCS)",
       "activity": "SCM",
-      "photo": "sysadmin-up-avatar.png"
+      "photo": "sysadmin-up-avatar.png",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=14055s",
+      "speaker_hide": ""
     }
   ],
   "thanks": [
