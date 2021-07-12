@@ -69,7 +69,7 @@
       "description": "Step-by-step как научиться перехватывать пароль пользователя при логине или sudo команде. Сначала найдем бинарь, который отвечает за проверку пароля. Поковыряемся в исходниках и напишем bpftrace программу, которая будет выводить введенные пароли.",
       "activity": "",
       "photo": "ilyas-islamov-avatar.png",
-      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=12191s",
+      "youtube_link": "https://www.youtube.com/watch?v=qGz7Vz_dw8Y&t=3379s",
       "speaker_hide": ""
     },
     {
