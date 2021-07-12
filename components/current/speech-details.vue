@@ -24,16 +24,17 @@
 
     </div>
 
-    <div class="container has-text-centered">
+<!--    <div class="container has-text-centered">-->
 
-      <div class="block orange divide">~ ~ ~</div>
+<!--      <div class="block orange divide">~ ~ ~</div>-->
 
-      <div class="columns">
-        <div class="column">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qGz7Vz_dw8Y?start=193" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+<!--      <div class="columns">-->
+<!--        <div class="column">-->
+<!--          <iframe width="560" height="315" src="https://www.youtube.com/embed/qGz7Vz_dw8Y?start=193" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
   </section>
 </template>
 
