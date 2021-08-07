@@ -63,7 +63,7 @@ function init_dev() {
     docker rm -f $containerDevName
 
     echo Run new container...
-    docker run -d -p 45863:3000 --name $containerDevName $imageDevName
+    docker run -d --restart unless-stopped -p 45863:3000 --name $containerDevName $imageDevName
 }
 
 function init_release() {
@@ -75,7 +75,7 @@ function init_release() {
 
     echo Run new container...
     # docker start d20945a50d05 --restart always
-    docker run -d -p 45866:3000 --name $containerReleaseName $imageReleaseName
+    docker run -d --restart unless-stopped -p 45866:3000 --name $containerReleaseName $imageReleaseName
 }
 
 if [[ $_DEV ]]; then
