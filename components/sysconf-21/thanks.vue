@@ -4,7 +4,7 @@
       <h2 class="title is-spaced white">Благодарности</h2>
       <div class="block orange divide">~ ~ ~</div>
 
-      <h3 class="subtitle white">Contributing</h3>
+      <h3 class="subtitle white">Организационная и финансовая помощь</h3>
 
       <ul class="white">
         <template v-for="user in content.thanks"> |
@@ -16,7 +16,7 @@
       <br>
 
       <div class="is-divider blue" data-content="||"></div>
-      <h3 class="subtitle white">Volunteers / Organizers</h3>
+      <h3 class="subtitle white">Волонтеры</h3>
 
       <ul class="white">
         <template v-for="user in content.volunteers"> |
@@ -28,7 +28,7 @@
       <br>
 
       <div class="is-divider blue" data-content="||"></div>
-      <h3 class="subtitle white">Information Support</h3>
+      <h3 class="subtitle white">Информационная поддержка</h3>
 
       <div class="columns">
         <div class="column is-4 has-text-centered">
@@ -61,7 +61,7 @@
       </div>
 
       <div class="is-divider blue" data-content="||"></div>
-      <h3 class="subtitle white">Friends</h3> |
+      <h3 class="subtitle white">Дружественные ресурсы</h3> |
       <template v-for="site in content.frendly_sources">
         <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
@@ -72,7 +72,7 @@
 </template>
 
 <script>
-import datausers from 'assets/data/data.json';
+import datausers from 'assets/data/data-21.json';
 
 export default {
   name: "thanks",

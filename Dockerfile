@@ -2,7 +2,7 @@
 # https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 
-FROM node:14
+FROM node:16
 
 ENV NODE_ENV=prod
 

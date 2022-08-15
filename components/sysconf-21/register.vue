@@ -3,24 +3,21 @@
 
     <div class="container has-text-centered">
 
-      <h2 class="title is-spaced">Участие</h2>
-      <div class="block orange divide">+++</div>
-      <p class="title is-5 divide-subtitle">
-        Участвуй, общайся, делись знаниями:
-      </p>
+      <h2 class="title is-spaced">Регистрация</h2>
+      <div class="block orange divide">~ ~ ~</div>
+      <p class="title is-5 divide-subtitle">Участие в Open SysConf в качестве онлайн/оффлайн участника/волонтера или докладчика</p>
       <div class="container page-container">
         <div class="columns">
           <div class="column has-text-right">
 
-            <a class="button is-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfhKpEC_a8Ze4x2cNr42zjwU0726_9p4irLefLXQtTK53TIGg/viewform?usp=sf_link">
-<!--            <a class="button is-primary" @click='toggleOfflineRegister = !toggleOfflineRegister'>-->
+<!--            <a class="button is-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSem2IvKwUsl2wcUiBE3QQO4GwgbBSlIHfjGKJ3XMs7KlAxjsA/viewform?usp=sf_link">-->
+            <a class="button is-primary" @click='toggleOfflineRegister = !toggleOfflineRegister'>
             Регистрация участника</a>
 
           </div>
           <div class="is-divider-vertical" data-content="ИЛИ"></div>
           <div class="column has-text-left">
-            <a class="button is-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeA7liVA4rfdB-OpoGTohTWKIxBN1gkOYdHns7620MsyrpEkw/viewform?usp=sf_link">
-<!--            <a class="button is-primary" @click='toggleSpeakerRegister = !toggleSpeakerRegister'>-->
+            <a class="button is-primary" @click='toggleSpeakerRegister = !toggleSpeakerRegister'>
               Регистрация докладчика</a>
           </div>
         </div>
@@ -40,7 +37,7 @@
       </div>
       <div v-show='toggle'>
         <div class="notification is-warning">
-          Вопросы можно задавать в <a class="is-ghost" href="https://t.me/OpenSysConf" target="_blank">Open SysConf</a> чате
+          Оффлайн регистрация и регистрация докладчика <strong>закрыты</strong> в виду полного набора состава участников
         </div>
       </div>
 <!--      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>-->
