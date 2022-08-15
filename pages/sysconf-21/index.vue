@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <Head />
     <Slogan />
     <Speakers />
     <Timeline />
@@ -13,19 +13,19 @@
 </template>
 
 <script>
-import Hero from '~/components/current/hero';
-import Slogan from '~/components/current/slogan';
-import Speakers from '~/components/current/speakers';
-import Timeline from '~/components/current/timeline';
-import SpeechDetails from "@/components/current/speech-details";
-import Register from '~/components/current/register';
-import Location from "~/components/current/location";
-import Supports from "~/components/current/supports";
-import Thanks from "~/components/current/thanks";
+import Head from '~/components/sysconf-21/head-21';
+import Slogan from '~/components/sysconf-21/slogan';
+import Speakers from '~/components/sysconf-21/speakers';
+import Timeline from '~/components/sysconf-21/timeline';
+import SpeechDetails from "@/components/sysconf-21/speech-details";
+import Register from '~/components/sysconf-21/register';
+import Location from "~/components/sysconf-21/location";
+import Supports from "~/components/sysconf-21/supports";
+import Thanks from "~/components/sysconf-21/thanks";
 
 export default {
   components: {
-    Hero,
+    Head,
     Slogan,
     Speakers,
     Timeline,

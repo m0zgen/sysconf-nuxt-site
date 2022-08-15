@@ -25,7 +25,7 @@
           </nuxt-link>
 
 <!--          <a class="navbar-item" href="/sysconf-19" target="_blank">SysConf'19</a>-->
-
+          <a class="navbar-item" href="sysconf-21">SysConf'21</a>
           <a class="navbar-item" href="https://19.sysconf.io" target="_blank">SysConf'19</a>
 
         </div>

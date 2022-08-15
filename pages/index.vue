@@ -1,11 +1,11 @@
 <template>
   <div>
     <Hero />
-    <Slogan />
-    <Speakers />
-    <Timeline />
+<!--    <Slogan />-->
+<!--    <Speakers />-->
+<!--    <Timeline />-->
     <Register />
-    <SpeechDetails />
+<!--    <SpeechDetails />-->
 <!--    <Location />-->
     <Supports/>
     <Thanks/>

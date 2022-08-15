@@ -1,15 +1,15 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div>
     <h2 class="title is-3">
-      Открытая конференция ИТ / ИБ / *OPS направлений
+      Open IT Knowledge Sharing
       <br>
-      г.Алматы, 10 июля, 10:00-19:00 GMT+6 <strong class="orange">(Завершено)</strong>
+      г.Алматы, Октябрь <strong class="orange">(будет)</strong>
     </h2>
     <br><br>
-    <h1 class="title is-4 subtitle">
-      <strong>You can make this world</strong>
-      <second>better</second>
-    </h1>
+<!--    <h1 class="title is-4 subtitle">-->
+<!--      <strong>You can make this world</strong>-->
+<!--      <second>better</second>-->
+<!--    </h1>-->
   </div>
 </template>
 

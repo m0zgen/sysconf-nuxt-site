@@ -13,10 +13,10 @@
           <div class="columns">
             <div class="column is-8-desktop is-offset-2-desktop">
               <div class="block">
-                <img class="is-16by9 mb-6" src="~/assets/images/sysconf-unicorn-logo.png" alt="">
+                <img class="is-16by9 mb-6" src="~/assets/images-22/open_sysconf_logo_22x333.jpeg" alt="">
               </div>
-              <h1 class="title is-2 is-spaced">
-                <strong>Open SysConf'21</strong>
+              <h1 class="title is-2 is-spaced is-size-2">
+                <strong style="color: #fff">Open SysConf'22</strong>
               </h1>
               <br><br>
               <Heroanounce/>
@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import Navbar from "~/components/2021/navbar";
-import Heroanounce from "~/components/2021/hero-anounce"
+import Navbar from "~/components/current/navbar";
+import Heroanounce from "~/components/current/hero-anounce"
 
 export default {
   name: "hero",

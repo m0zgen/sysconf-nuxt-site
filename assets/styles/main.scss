@@ -75,7 +75,8 @@ a.level-item:hover, a.level:hover, .orange-hover:hover {
 // Design elements
 .hero.is-primary {
   //background-color: $bg-general-color;
-  background: linear-gradient(180deg, #000, $bg-general-color);
+  //background: linear-gradient(180deg, #000, $bg-general-color);
+  background: #000000;
 }
 
 .hero.is-primary strong {
