@@ -40,6 +40,10 @@
             <a class="orange-hover" href="https://t.me/b4tr_channel" target="_blank">b4tr_channel</a>
           </div>
           <div class="level">
+            <a href="#"></a>
+            <a class="orange-hover" href="https://t.me/linkmeup_sysadm_chat" target="_blank">linkmeup_sysadmins</a>
+          </div>
+          <div class="level">
           </div>
         </div>
 
@@ -53,6 +57,9 @@
           </div>
           <div class="level">
             <a class="orange-hover" href="https://t.me/mikrotikninja" target="_blank">Mikrotik Ninja</a>
+          </div>
+          <div class="level">
+            <a class="orange-hover" href="https://t.me/onebrick" target="_blank">One brick to the IT world</a>
           </div>
           <div class="level">
             <a href="#" target="_blank"></a>
