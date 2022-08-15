@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import Navbar from "~/components/2021/navbar";
-import Heroanounce from "~/components/2021/hero-anounce"
+import Navbar from "~/components/current/navbar";
+import Heroanounce from "~/components/current/hero-anounce"
 
 export default {
   name: "hero",
@@ -42,7 +42,7 @@ export default {
   computed: {
     isHome() {
       // console.log(this.$route.name)
-      return this.$route.name == 'index'
+      return this.$route.name == 'sysconf-21'
     }
   }
 }
