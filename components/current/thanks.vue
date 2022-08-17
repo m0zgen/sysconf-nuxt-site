@@ -76,8 +76,8 @@
       </template>
 
       <div class="is-divider blue" data-content="||"></div>
-      <h3 class="subtitle white">+ who helping to grow</h3> |
-      <template v-for="site in content.frendly_sources">
+      <h3 class="subtitle white">Conference Support</h3> |
+      <template v-for="site in content.growth_helping">
         <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
 
