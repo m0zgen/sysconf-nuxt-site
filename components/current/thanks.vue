@@ -49,6 +49,8 @@
 
         <div class="column is-4 has-text-centered is-hidden-mobile orange is-bold">
           <a class="level-item" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
+          <br>
+          <a class="level-item" href="https://t.me/csnf404" target="_blank">2600 Qazaqstan</a>
         </div>
 
         <div class="column is-4 has-text-centered">
@@ -69,6 +71,12 @@
 
       <div class="is-divider blue" data-content="||"></div>
       <h3 class="subtitle white">Friends</h3> |
+      <template v-for="site in content.frendly_sources">
+        <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
+      </template>
+
+      <div class="is-divider blue" data-content="||"></div>
+      <h3 class="subtitle white">+ who helping to grow</h3> |
       <template v-for="site in content.frendly_sources">
         <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
