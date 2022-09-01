@@ -2,9 +2,9 @@
   <div>
     <Hero />
 <!--    <Slogan />-->
-<!--    <Timeline />-->
     <Register />
 <!--    <Speakers />-->
+<!--    <Timeline />-->
 <!--    <SpeechDetails />-->
 <!--    <Location />-->
     <Supports/>
