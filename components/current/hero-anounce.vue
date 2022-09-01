@@ -3,7 +3,8 @@
     <h2 class="title is-3">
       Open IT Knowledge Sharing
       <br>
-      г.Алматы, Октябрь <strong class="orange">(будет)</strong>
+      14 Октября, с 11:00 до 20:00, Алматы
+      <strong class="orange">(Smartpont)</strong>
     </h2>
     <br><br>
 <!--    <h1 class="title is-4 subtitle">-->
