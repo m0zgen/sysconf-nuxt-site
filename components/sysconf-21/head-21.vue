@@ -6,7 +6,7 @@
       <Navbar/>
     </div>
 
-    <template v-if="isHome">
+    <template v-if="is21">
 
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -31,7 +31,7 @@
 
 <script>
 import Navbar from "~/components/current/navbar";
-import Heroanounce from "~/components/current/hero-anounce"
+import Heroanounce from "~/components/sysconf-21/hero-anounce"
 
 export default {
   name: "hero",
@@ -40,7 +40,7 @@ export default {
     Heroanounce
   },
   computed: {
-    isHome() {
+    is21() {
       // console.log(this.$route.name)
       return this.$route.name == 'sysconf-21'
     }
