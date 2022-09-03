@@ -123,7 +123,7 @@
               <div class="box has-background-light">
                 <div class="is-vcentered columns is-multiline">
                   <div class="column is-5">
-                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_sysadminkz_.jpeg" alt="">
+                    <img class="image is-fullwidth " style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_sysadminkz_.jpeg" alt="">
                   </div>
                   <div class="column is-7">
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
