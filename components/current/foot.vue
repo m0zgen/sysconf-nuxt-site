@@ -2,7 +2,7 @@
   <section class="footer section-content is-small">
 
     <div class="container has-text-centered">
-      <div class="block orange divide">^ ^ ^</div>
+      <div class="block orange divide">+</div>
     </div>
 
       <div class="container">

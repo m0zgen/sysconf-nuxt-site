@@ -30,6 +30,7 @@ $general: #000;
 //$general: #1A2238;
 $strong-primary: #FF6A3D;
 $orange: #FF6A3D;
+$orange-light: #fdffbe;
 $strong-secondary: #9DAAF2;
 
 body {
@@ -89,7 +90,7 @@ a.level-item:hover, a.level:hover, .orange-hover:hover {
   color: $primary;
 }
 
-section.black.section-content {
+section.black.section-content, .section-black {
   background: #000;
   color: #fff;
 
@@ -140,9 +141,10 @@ section.footer.section-content {
 }
 
 .divide {
-  font-size: calc(22rem/11);
+  //font-size: calc(22rem/11);
+  font-size: calc(18rem/11);
   letter-spacing: -.6px;
-  font-weight: 800;
+  //font-weight: 800;
   //line-height: calc(110/95);
 }
 
@@ -156,6 +158,10 @@ section.footer.section-content {
 
 .orange {
   color: $strong-primary;
+}
+
+.orange-light {
+  color: $orange-light;
 }
 
 .blue {

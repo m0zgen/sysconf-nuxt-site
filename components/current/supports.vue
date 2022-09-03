@@ -1,7 +1,8 @@
 <template>
   <section class="section section-content is-small">
-    <div class="container has-text-centered">
-      <h2 class="title is-spaced white">Поддержка</h2>
+    <div class="container has-text-centered ">
+      <div class="is-divider blue" data-content="||"></div>
+      <h2 class="title is-spaced white pt-5">Поддержка</h2>
       <div class="block orange divide">+++</div>
       <p class="subtitle white">Donation</p>
       <p class="white">Обязательно присылайте свои имена или никнеймы, они будут указаны в разделе "Благодарности"</p>
