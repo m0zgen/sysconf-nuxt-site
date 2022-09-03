@@ -72,13 +72,13 @@
 <!--      <div class="is-divider blue" data-content="||"></div>-->
       <h3 class="subtitle white has-text-weight-bold">Friends</h3> |
       <template v-for="site in content.frendly_sources">
-        <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
+        <a class="orange-hover orange-light" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
 
 <!--      <div class="is-divider blue" data-content="||"></div>-->
       <h3 class="subtitle white has-text-weight-bold mt-5">Conference Support</h3> |
       <template v-for="site in content.growth_helping">
-        <a class="orange-hover" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
+        <a class="orange-hover orange-light" v-bind:href="site.link" target="_blank">{{ site.name }}</a> |
       </template>
 
     </div>

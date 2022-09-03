@@ -11,10 +11,10 @@
             <div class="level-item"><a class="title is-4 white orange-hover" href="#navigation">Open SysConf</a></div>
           </div>
           <div class="level-right">
-            <a class="level-item" href="https://t.me/OpenSysConf" target="_blank">SysConf Group</a>
-            <a class="level-item" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
-            <a class="level-item" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
-            <a class="level-item" href="https://forum.sys-adm.in" target="_blank">Sys-Admin Forum</a>
+            <a class="level-item orange-light" href="https://t.me/OpenSysConf" target="_blank">SysConf Group</a>
+            <a class="level-item orange-light" href="https://t.me/sysadm_in_channel" target="_blank">Sys-Admin Channel</a>
+            <a class="level-item orange-light" href="https://t.me/sysadm_in" target="_blank">Sys-Admin Help</a>
+            <a class="level-item orange-light" href="https://forum.sys-adm.in" target="_blank">Sys-Admin Forum</a>
           </div>
         </div>
         <hr class="hr-divider">
