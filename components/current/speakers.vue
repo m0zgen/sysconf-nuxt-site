@@ -122,8 +122,11 @@
             <div class="column is-6 mb-4">
               <div class="box has-background-light">
                 <div class="is-vcentered columns is-multiline">
-                  <div class="column is-5">
-                    <img class="image is-fullwidth " style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_sysadminkz_.jpeg" alt="">
+                  <div class="column is-5 is-hidden-mobile">
+                    <img class="image is-fullwidth is-desktop" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_sysadminkz_.jpeg" alt="">
+                  </div>
+                  <div class="column is-5 is-hidden-desktop is-hidden-tablet">
+                    <img class="image is-fullwidth is-desktop" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_liu_kang.jpeg" alt="">
                   </div>
                   <div class="column is-7">
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
