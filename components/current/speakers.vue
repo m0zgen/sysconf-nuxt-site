@@ -59,6 +59,45 @@
                 </div>
               </div>
             </div>
+            <!--            Section-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_t2micro_.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Ilyas B Arinov "t2micro"
+                    </h4>
+                    <p class="mb-4 has-text-grey">DevOps</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>Старый... Но не бесполезный</strong></p>
+                    <p>Применение протокола IRC в современной инфраструктуре для построения сервис-ориентированной модели алертинга.</p>
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_noob.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      (vacancy place)
+                    </h4>
+                    <p class="mb-4 has-text-grey">(vacancy place)</p><br>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>(vacancy place)</strong></p>
+                    <p>(vacancy place)</p><br><br><br><br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
 <!--            Section-->
             <div class="column is-6 mb-4">
               <div class="box has-background-light">
@@ -135,7 +174,7 @@
                     <p class="mb-4 has-text-grey">IT/IS Awareness Evangelist | Open BLD DNS Service Founder and more...</p>
                     <p class="mb-1">Доклад:</p>
                     <p><strong>Нейромаркетинг Awareness</strong></p>
-                    <p>Нейромаркетинг - создание действия до того, как челоек осознал чей это дейтвительно был выбор. Рассказ о том, как как была построена система неявной превентивной защиты, на примере Open Source проекта Open BLD DNS</p>
+                    <p>Нейромаркетинг - создание действия до того, как человек осознал чей это дейтвительно был выбор. Рассказ о том, как была построена система неявной превентивной защиты, на примере Open Source проекта Open BLD DNS</p>
                     <br>
                   </div>
                 </div>
