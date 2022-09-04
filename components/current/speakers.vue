@@ -21,7 +21,7 @@
           <div class="columns is-multiline">
 <!--            Section-->
             <div class="column is-6 mb-4">
-              <div class="box has-background-light">
+              <div class="box has-background-light is-box-100">
                 <div class="is-vcentered columns is-multiline">
                   <div class="column is-5">
                     <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_novitoll_.jpg" alt="">
