@@ -1,12 +1,12 @@
 <template>
   <section class="black section-content is-small">
 
-    <div class="container has-text-centered ">
+    <div class="container has-text-centered pb-4">
 
       <h2 class="title is-spaced has-text-white">Участие</h2>
       <div class="block orange divide">+++</div>
       <p class="title is-5 divide-subtitle has-text-white">
-        Участвуй, общайся, делись знаниями:
+        Участвуй, знакомься, общайся:
       </p>
       <div class="container page-container">
         <div class="columns">
@@ -26,24 +26,24 @@
         </div>
       </div>
 
-      <a class="button is-dark" @click='toggle = !toggle'>Еще немного информации</a>
-      <br><br>
-      <div v-show='toggleSpeakerRegister'>
-        <div class="notification is-warning">
-          Регистрация докладчика <strong>закрыта</strong>
-        </div>
-      </div>
-      <div v-show='toggleOfflineRegister'>
-        <div class="notification is-warning">
-          Регистрация участников <strong>закрыта</strong>
-        </div>
-      </div>
-      <div v-show='toggle'>
-        <div class="notification is-warning">
-          Вопросы можно задавать в <a class="is-ghost" href="https://t.me/OpenSysConf" target="_blank">Open SysConf</a> чате
-        </div>
-      </div>
-<!--      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>-->
+<!--      <a class="button is-dark" @click='toggle = !toggle'>Еще немного информации</a>-->
+<!--      <br><br>-->
+<!--      <div v-show='toggleSpeakerRegister'>-->
+<!--        <div class="notification is-warning">-->
+<!--          Регистрация докладчика <strong>закрыта</strong>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div v-show='toggleOfflineRegister'>-->
+<!--        <div class="notification is-warning">-->
+<!--          Регистрация участников <strong>закрыта</strong>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div v-show='toggle'>-->
+<!--        <div class="notification is-warning">-->
+<!--          Вопросы можно задавать в <a class="is-ghost" href="https://t.me/OpenSysConf" target="_blank">Open SysConf</a> чате-->
+<!--        </div>-->
+<!--      </div>-->
+<!--&lt;!&ndash;      <a class="button is-warning" onmouseover="glow()" onclick="start()">TEST</a>&ndash;&gt;-->
     </div>
   </section>
 </template>

@@ -3,7 +3,7 @@
     <Hero />
 <!--    <Slogan />-->
     <Register />
-<!--    <Speakers />-->
+    <Speakers />
 <!--    <Timeline />-->
 <!--    <SpeechDetails />-->
 <!--    <Location />-->
