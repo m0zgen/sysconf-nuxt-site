@@ -19,7 +19,8 @@
       <div class="columns is-multiline is-centered">
         <div class="column is-12 is-10-desktop">
           <div class="columns is-multiline">
-<!--            Section-->
+            <!--            Section-->
+<!--            Novitoll-->
             <div class="column is-6 mb-4">
               <div class="box has-background-light is-box-100">
                 <div class="is-vcentered columns is-multiline">
@@ -41,67 +42,72 @@
                 </div>
               </div>
             </div>
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5">-->
-<!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_kunkg_lao.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      Kutlymurat "manfromkz" Mambetniyazov-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">Senior Security Testing Engineer | OSCP | eWPTXv2 | eCPTXv2 | Master of Computer Sciencer</p>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>История одного CVE</strong></p>-->
-<!--                    <p>Рассказ о том, как простой пентест веб-приложения привел к выявлению SSRF-уязвимости в популярном менеджере рабочего стола для Linux</p>-->
-<!--                    <br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
+<!--            Murat-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light is-box-100">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_kunkg_lao.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Kutlymurat "manfromkz" Mambetniyazov
+                    </h4>
+                    <p class="mb-4 has-text-grey">Senior Security Testing Engineer | OSCP | eWPTXv2 | eCPTXv2 | Master of Computer Sciencer</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>История одного CVE</strong></p>
+                    <p>Рассказ о том, как простой пентест веб-приложения привел к выявлению SSRF-уязвимости в популярном менеджере рабочего стола для Linux</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--            Section-->
+<!--            t2micro-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light is-box-100">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_t2micro_.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Ilyas B Arinov "t2micro"
+                    </h4>
+                    <p class="mb-4 has-text-grey">DevOps</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>Старый... Но не бесполезный</strong></p>
+                    <p>Применение протокола IRC в современной инфраструктуре для построения сервис-ориентированной модели алертинга.</p>
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--            Sheldon-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light is-box-100">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_smoke2.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Shelldon "Sh3lldon"
+                    </h4>
+                    <br>
+                    <p class="mb-4 has-text-grey">Reverse engineer - binary exploitation expert Windows Kernel/Driver/User Mode Exploit Developer. Студент 3 курса. </p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>DEP vs ROP</strong></p>
+                    <p>Обход DEP (Data Execution Prevention) с помощью ROP (Return Oriented Programming) chain, а также выполнения meterpreter шелкода.
+                    </p>
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!--            Section-->
 <!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5">-->
-<!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/speaker_22_t2micro_.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      Ilyas B Arinov "t2micro"-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">DevOps</p>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>Старый... Но не бесполезный</strong></p>-->
-<!--                    <p>Применение протокола IRC в современной инфраструктуре для построения сервис-ориентированной модели алертинга.</p>-->
-<!--                    <br><br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5">-->
-<!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_noob.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      (vacancy place)-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">(vacancy place)</p><br>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>(vacancy place)</strong></p>-->
-<!--                    <p>(vacancy place)</p><br><br><br><br>-->
-<!--                    <br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            Section-->
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
+<!--              <div class="box has-background-light is-box-100">-->
 <!--                <div class="is-vcentered columns is-multiline">-->
 <!--                  <div class="column is-5">-->
 <!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_scorpion.jpeg" alt="">-->
@@ -138,30 +144,29 @@
 <!--                </div>-->
 <!--              </div>-->
 <!--            </div>-->
-<!--            Section-->
+            <!--            Section-->
+            <!--            Vacancy-->
             <div class="column is-6 mb-4">
               <div class="box has-background-light is-box-100">
                 <div class="is-vcentered columns is-multiline">
                   <div class="column is-5">
-                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_smoke2.jpeg" alt="">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_noob.jpeg" alt="">
                   </div>
                   <div class="column is-7">
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
-                      Shelldon "Sh3lldon"
+                      (vacancy place)
                     </h4>
-                    <br>
-                    <p class="mb-4 has-text-grey">Reverse engineer - binary exploitation expert Windows Kernel/Driver/User Mode Exploit Developer. Студент 3 курса. </p>
+                    <p class="mb-4 has-text-grey">(vacancy place)</p><br>
                     <p class="mb-1">Доклад:</p>
-                    <p><strong>DEP vs ROP</strong></p>
-                    <p>Обход DEP (Data Execution Prevention) с помощью ROP (Return Oriented Programming) chain, а также выполнения meterpreter шелкода.
-                    </p>
-                    <br><br>
+                    <p><strong>(vacancy place)</strong></p>
+                    <p>(vacancy place)</p><br><br><br><br>
+                    <br>
                   </div>
                 </div>
               </div>
             </div>
 <!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
+<!--              <div class="box has-background-light is-box-100">-->
 <!--                <div class="is-vcentered columns is-multiline">-->
 <!--                  <div class="column is-5 is-hidden-mobile">-->
 <!--                    <img class="image is-fullwidth is-desktop" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_liu_kang.jpeg" alt="">-->
