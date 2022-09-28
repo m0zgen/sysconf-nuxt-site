@@ -94,7 +94,6 @@
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
                       Shelldon "Sh3lldon"
                     </h4>
-                    <br>
                     <p class="mb-4 has-text-grey">Reverse engineer - binary exploitation expert Windows Kernel/Driver/User Mode Exploit Developer. Студент 3 курса. </p>
                     <p class="mb-1">Доклад:</p>
                     <p><strong>DEP vs ROP</strong></p>
@@ -106,44 +105,44 @@
               </div>
             </div>
             <!--            Section-->
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light is-box-100">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5">-->
-<!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_scorpion.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      Roman "sysroman"-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">Ведущий Linux сисадмин в Билайн Казахстан</p>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>Ansible AWX by Oracle</strong></p>-->
-<!--                    <p>Рассказ на примерах про веб-приложение с открытым исходным кодом от Oracle, представляющее пользовательский интерфейс, REST API и механизм задач для Ansible</p>-->
-<!--                    <br><br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5">-->
-<!--                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_batman.png" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      Дмитрий "ватман"-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">Админ, архитектор</p><br>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>CDC</strong></p>-->
-<!--                    <p>CDC и как узнавать об изменении данных раньше всех, ну почти.</p><br><br><br><br>-->
-<!--                    <br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light is-box-100">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_scorpion.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Roman "sysroman"
+                    </h4>
+                    <p class="mb-4 has-text-grey">Ведущий Linux сисадмин в Билайн Казахстан</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>Ansible AWX by Oracle</strong></p>
+                    <p>Рассказ на примерах про веб-приложение с открытым исходным кодом от Oracle, представляющее пользовательский интерфейс, REST API и механизм задач для Ansible</p>
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_batman.png" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Дмитрий "ватман"
+                    </h4>
+                    <p class="mb-4 has-text-grey">Админ, архитектор</p><br>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>CDC</strong></p>
+                    <p>CDC и как узнавать об изменении данных раньше всех, ну почти.</p><br><br><br><br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!--            Section-->
             <!--            Vacancy-->
             <div class="column is-6 mb-4">
