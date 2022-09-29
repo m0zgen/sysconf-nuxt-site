@@ -153,7 +153,7 @@
                   </div>
                   <div class="column is-7">
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
-                      Айдар "Ospanbekov" Оспанбеков
+                      Айдар Оспанбеков
                     </h4>
                     <p class="mb-4 has-text-grey">Архитектор облака PS.kz</p>
                     <p class="mb-1">Доклад:</p>
