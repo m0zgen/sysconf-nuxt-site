@@ -153,13 +153,12 @@
                   </div>
                   <div class="column is-7">
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
-                      (vacancy place)
+                      Айдар Оспанбеков
                     </h4>
-                    <p class="mb-4 has-text-grey">(vacancy place)</p><br>
+                    <p class="mb-4 has-text-grey">Архитектор облака PS.kz</p>
                     <p class="mb-1">Доклад:</p>
-                    <p><strong>(vacancy place)</strong></p>
-                    <p>(vacancy place)</p><br><br><br><br>
-                    <br>
+                    <p><strong>Сети (хуети) в современном датацентре</strong></p>
+                    <p>С какими проблемами мы столкнулись при эксплуатации сети в публичном облаке; Как и для чего мы отказывались от VLAN в пользу VxLAN; Как строили сеть по топологии spine-leaf с BGP и FRRouting</p>
                   </div>
                 </div>
               </div>
