@@ -1,6 +1,7 @@
 <template>
   <section class="section section-content is-small">
     <div class="container has-text-centered">
+      <div class="is-divider blue" data-content="||"></div>
       <h2 class="title is-spaced white pt-5">Благодарности</h2>
       <div class="block orange divide">+++</div>
 

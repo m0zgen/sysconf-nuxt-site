@@ -6,8 +6,8 @@
     <Speakers />
 <!--    <Timeline />-->
 <!--    <SpeechDetails />-->
-<!--    <Location />-->
-    <Supports/>
+    <Location />
+<!--    <Supports/>-->
     <Thanks/>
   </div>
 </template>
