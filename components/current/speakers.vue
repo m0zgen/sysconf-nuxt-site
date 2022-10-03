@@ -144,7 +144,7 @@
               </div>
             </div>
             <!--            Section-->
-            <!--            Vacancy-->
+            <!--            Aidar-->
             <div class="column is-6 mb-4">
               <div class="box has-background-light is-box-100">
                 <div class="is-vcentered columns is-multiline">
@@ -163,28 +163,47 @@
                 </div>
               </div>
             </div>
-<!--            <div class="column is-6 mb-4">-->
-<!--              <div class="box has-background-light is-box-100">-->
-<!--                <div class="is-vcentered columns is-multiline">-->
-<!--                  <div class="column is-5 is-hidden-mobile">-->
-<!--                    <img class="image is-fullwidth is-desktop" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_liu_kang.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-5 is-hidden-desktop is-hidden-tablet">-->
-<!--                    <img class="image is-fullwidth is-desktop" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_noghtwolf.jpeg" alt="">-->
-<!--                  </div>-->
-<!--                  <div class="column is-7">-->
-<!--                    <h4 class="mb-2 is-size-4 has-text-weight-bold">-->
-<!--                      Yevgeniy "sysadminkz"-->
-<!--                    </h4>-->
-<!--                    <p class="mb-4 has-text-grey">IT/IS Awareness Evangelist | Open BLD DNS Service Founder and more...</p>-->
-<!--                    <p class="mb-1">Доклад:</p>-->
-<!--                    <p><strong>Нейромаркетинг Awareness</strong></p>-->
-<!--                    <p>Нейромаркетинг - создание действия до того, как человек осознал чей это дейтвительно был выбор. Рассказ о том, как была построена система неявной превентивной защиты, на примере Open Source проекта Open BLD DNS</p>-->
-<!--                    <br>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
+            <!--            R0b0cat-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_kitana.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Нурбиби "R0b0Cat"
+                    </h4>
+                    <p class="mb-4 has-text-grey">Системный администратор</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>Шаблонизация Linux систем в организациях</strong></p>
+                    <p>Доклад для тех кому нужно произвести в единый формат linux дистрибутивы в организации</p><br><br><br><br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Sysadminkz-->
+            <div class="column is-6 mb-4">
+              <div class="box has-background-light">
+                <div class="is-vcentered columns is-multiline">
+                  <div class="column is-5">
+                    <img class="image is-fullwidth" style="height: 330px; object-fit: cover;" src="~/assets/images-22/ninja_splash_liu_kang.jpeg" alt="">
+                  </div>
+                  <div class="column is-7">
+                    <h4 class="mb-2 is-size-4 has-text-weight-bold">
+                      Yevgeniy "sysadminkz"
+                    </h4>
+                    <p class="mb-4 has-text-grey">Step-by-step man.. Open BLD DNS.. System engineer and more..</p>
+                    <p class="mb-1">Доклад:</p>
+                    <p><strong>Awareness - Неявный превентинг</strong></p>
+                    <p>Неявный превентинг - такого термина в интернете не нашел, поэтому расскажу о том, как я вижу defencive подход с позиции неявной превентивной защиты. Создадим новый термин и его понимание прямо в реалтайме ✌️</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
