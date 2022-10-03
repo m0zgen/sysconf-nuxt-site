@@ -194,7 +194,7 @@
                     <h4 class="mb-2 is-size-4 has-text-weight-bold">
                       Yevgeniy "sysadminkz"
                     </h4>
-                    <p class="mb-4 has-text-grey">Step-by-step man.. Open BLD DNS.. System engineer and more..</p>
+                    <p class="mb-4 has-text-grey">Open BLD DNS <a href="https://lab.sys-adm.in" target="_blank">service</a> founder.. System engineer.. <a href="https://sys-adm.in" target="_blank">Sys-Adm.in</a> and more..</p>
                     <p class="mb-1">Доклад:</p>
                     <p><strong>Неявный превентинг констракшн</strong></p>
                     <p>Неявный превентинг - такого термина в интернете не нашел, поэтому расскажу о том, как я вижу defencive подход с позиции неявной превентивной защиты. Создадим новый термин и его понимание прямо в реалтайме ✌️</p>
