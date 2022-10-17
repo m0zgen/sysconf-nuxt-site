@@ -5,7 +5,7 @@
       <div class="columns pt-6 mb-6 is-multiline is-centered">
         <div class="column is-8 has-text-centered">
           <span class="has-text-white-bis">
-            Кто уже в деле
+            Кто принимал участие
           </span>
           <h2 class="mt-2 mb-3 is-size-1 is-size-3-mobile has-text-weight-bold">
             Докладчики и Доклады

@@ -2,11 +2,11 @@
   <div>
     <Hero />
 <!--    <Slogan />-->
-    <Register />
+<!--    <Register />-->
     <Speakers />
 <!--    <Timeline />-->
 <!--    <SpeechDetails />-->
-    <Location />
+<!--    <Location />-->
 <!--    <Supports/>-->
     <Thanks/>
   </div>

@@ -3,8 +3,8 @@
     <h2 class="title is-capitalized is-3">
       IT/IS/Ops and more research knowledge sharing
       <br>
-      14 Октября, с 11:00 до 20:00
-      <strong class="orange">(Алматы)</strong>
+      Какие доклады были 14 Октября 2022
+      <strong class="orange">(см. ниже)</strong>
     </h2>
     <br><br>
 <!--    <h1 class="title is-4 subtitle">-->
