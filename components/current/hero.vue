@@ -16,7 +16,7 @@
                 <img class="is-16by9 mb-6" src="~/assets/images-22/open_sysconf_logo_22x333.jpeg" alt="">
               </div>
               <h1 class="title is-2 is-spaced is-size-2">
-                <strong style="color: #fff">Open SysConf'22</strong>
+                <strong style="color: #fff">Open SysConf</strong>
               </h1>
               <br><br>
               <Heroanounce/>
