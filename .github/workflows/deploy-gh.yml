@@ -25,9 +25,8 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to gh-pages
-        if: github.ref == 'refs/heads/dev'
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           branch: gh-pages
           folder: build
