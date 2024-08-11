@@ -49,7 +49,7 @@ export default {
 
   target: 'static',
   router: {
-    base: '/'
+    base: '/sysconf-nuxt-site/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
