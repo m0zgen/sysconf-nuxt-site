@@ -1,0 +1,211 @@
+$red: red;
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$black: #000;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$title: $red;
+$strong-color: $red;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Sysconf Customisation
+$bg-general-color: #000;
+$general: #000;
+//$bg-general-color: #1A2238;
+//$general: #1A2238;
+$strong-primary: #FF6A3D;
+$orange: #FF6A3D;
+$orange-light: #fdffbe;
+$strong-secondary: #9DAAF2;
+
+body {
+  background-color: $bg-general-color;
+  height: 100vh;
+}
+
+a.level-item:hover, a.level:hover, .orange-hover:hover {
+  color: $orange;
+}
+
+.navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
+  background-color: $bg-general-color;
+}
+
+.hero.is-primary a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-primary strong {
+  color: #fff;
+}
+
+.hero.is-primary a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active, .hero.is-primary .navbar-link:hover, .hero.is-primary .navbar-link.is-active {
+  background-color: $bg-general-color;
+  color: #fff;
+}
+
+.navbar-dropdown.is-hidden-mobile.is-boxed {
+  background: $bg-general-color;
+  color: $orange;
+}
+
+.navbar-dropdown.is-hidden-mobile.is-boxed, .navbar-dropdown.is-hidden-mobile.is-boxed:hover {
+  background: $bg-general-color;
+  color: $orange;
+
+}
+
+.navbar-link.dropped-menu {
+  background-color: #010102;
+}
+
+// Navbar on every page except HOME
+.hero-head.nav-second, {
+  background-color: #1a2238;
+}
+
+// Design elements
+.hero.is-primary {
+  //background-color: $bg-general-color;
+  //background: linear-gradient(180deg, #000, $bg-general-color);
+  background: #000000;
+}
+
+.hero.is-primary strong {
+  color: $orange;
+}
+
+.hero.is-primary .subtitle strong {
+  color: $primary;
+}
+
+section.black.section-content, .section-black {
+  background: #000;
+  color: #fff;
+
+}
+
+section.footer.section-content {
+  background: linear-gradient(
+      0deg
+    , #0c0c0c, #000);
+    //, #0f1421, #1A2238);
+
+}
+
+.hr-divider {
+  display: block; height: 1px;
+  //border: 0; border-top: 1px solid #2a375d;
+  border: 0; border-top: 1px solid #fff;
+  margin: 1em 0; padding: 0;
+}
+
+.is-divider.blue, .is-divider-vertical.blue {
+  //border-top: .1rem solid #2c395a;
+  border-top: .1rem solid #fff;
+}
+
+.is-divider-vertical[data-content].blue::after, .is-divider[data-content].blue::after {
+  //background: #1a2238;
+  //color: #2c395a;
+  background: #000;
+  color: #fff;
+}
+
+.subtitle second {
+  color: $strong-secondary;
+  font-weight: 600;
+}
+
+.is-box-100 {
+  height: 100%;
+}
+
+.section-content {
+  background-color: $general;
+  //border-top: 1px solid $black;
+  //box-shadow: 10px 0 5px -2px #red;
+}
+
+.about-content h2 {
+  font-size: calc(95rem/16);
+  letter-spacing: -.6px;
+  line-height: calc(110/95);
+}
+
+.divide {
+  //font-size: calc(22rem/11);
+  font-size: calc(18rem/11);
+  letter-spacing: -.6px;
+  //font-weight: 800;
+  //line-height: calc(110/95);
+}
+
+.divide-subtitle {
+  color: #4a4a4a;
+}
+
+.card-speakers {
+  margin-bottom: 10px;
+}
+
+.orange {
+  color: $strong-primary;
+}
+
+.orange-light {
+  color: $orange-light;
+}
+
+.blue {
+  color:  $strong-secondary;
+}
+
+.white {
+  color: #fff;
+}
+
+.yellow {
+  color: #fffa70;
+}
+
+//.hero.is-primary a.navbar-item.is-active {
+//  background-color: #000000;
+//}
+
+.page-container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+ul.bullet-circle {
+  margin-left: 23pt;
+}
+
+ul.bullet-circle li {
+  list-style-type: disclosure-closed;
+}
+
+////
+
+.heading + p::first-letter {
+  //font-weight: bold;
+  //color: $bg-general-color;
+}
+
+.p-colored::first-letter {
+  color: $orange;
+  font-weight: bold;
+  font-size: 14px;
+}
