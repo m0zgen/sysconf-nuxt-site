@@ -4,7 +4,8 @@ name: Deploy MASTER
 on:
   push:
     branches:
-      - master
+      - remote
+#      - master
 
 jobs:
   build:

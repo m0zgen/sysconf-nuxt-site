@@ -4,7 +4,8 @@ name: Deploy DEV
 on:
   push:
     branches:
-      - dev
+      - remote
+#      - dev
 #      - '*'
 
 jobs:
