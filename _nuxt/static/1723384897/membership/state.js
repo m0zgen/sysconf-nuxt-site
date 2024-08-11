@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fsysconf-nuxt-site\u002F_nuxt\u002Fstatic\u002F1723384897",layout:"default",error:a,serverRendered:true,routePath:"\u002Fmembership",config:{_app:{basePath:"\u002Fsysconf-nuxt-site\u002F",assetsPath:"\u002Fsysconf-nuxt-site\u002F_nuxt\u002F",cdnURL:a}}}}(null));
