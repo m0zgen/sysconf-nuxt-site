@@ -49,7 +49,7 @@ export default {
 
   target: 'static',
   router: {
-    base: 'https://m0zgen.github.io/sysconf-nuxt-site/'
+    base: 'http://m0zgen.github.io/sysconf-nuxt-site'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
