@@ -23,11 +23,11 @@ jobs:
         run: npm install
 
       - name: Build website
-        run: npm run build
+        run: npm run generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           branch: gh-pages
-          folder: build
+          folder: dist
 
