@@ -41,7 +41,7 @@
 
         <div class="timeline-item is-warning" v-for="user in content.speakers" :key="user">
           <div class="timeline-marker is-warning is-image is-32x32">
-            <img src="https://bulma.io/images/placeholders/32x32.png">
+            <img src="https://bulma.io/assets/images/placeholders/32x32.png">
           </div>
           <div class="timeline-content">
             <p class="heading p-colored">{{user.presentation}}
