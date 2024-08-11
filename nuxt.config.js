@@ -47,6 +47,7 @@ export default {
     }]
   ],
 
+  target: 'static',
   router: {
     base: 'https://m0zgen.github.io/sysconf-nuxt-site/'
   },
