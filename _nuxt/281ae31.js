@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{313:function(n,t,e){"use strict";e.r(t);var c={name:"index"},r=e(23),component=Object(r.a)(c,(function(){this._self._c;return this._m(0)}),[function(){var n=this._self._c;return n("div",[n("h1",[this._v("\n    SYSCONF 19!!!\n  ")])])}],!1,null,"aaec2d2a",null);t.default=component.exports}}]);
